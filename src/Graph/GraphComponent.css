@@ -1,0 +1,196 @@
+.graph-whole-container{
+    width: 80%;
+    height: 450px;
+   
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 150px;
+  
+}
+.left-graph-container{
+  
+    width: 47%;
+    height: 450px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+   
+}
+.right-graph-container{
+   
+    width: 47%;
+    height: 450px;
+  
+    background-color:white;
+   
+}
+
+.left-top-graph-container{
+    width: 100%;
+    height: 150px;
+    border: 1px solid aliceblue;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+}
+.left-bottom-graph-container{
+    width: 100%;
+    height: 270px;
+    background-color:white;
+    
+}
+.total-income-dots{
+    width: 96%;
+    height:20px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+font-family: sans-serif;
+
+}
+.Amount{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+    margin-top:-15px;
+}
+.Amount button{
+    margin-left: 10px;
+    padding: 4px 5px 4px 5px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    
+}
+.custom-progress {
+    width: 90%; 
+  
+  }
+.left-top-graph-container progress{
+    margin-left: 10px;
+    margin-top: -19px;
+}
+.yearly-goal{
+    margin-left: 13px;
+    color:grey;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.new-users-box{
+    width: 100%;
+    height: 80px;
+   
+}
+.graph-box{
+width: 100%;
+height: 150px;
+
+margin-top: 20px;
+}
+.new-users-dots{
+    width: 96%;
+    height:20px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+font-family: sans-serif;
+}
+.Amount-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+    margin-top:-15px;
+}
+.Amount-btn button{
+    margin-left: 10px;
+    padding: 4px 5px 4px 5px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+}
+.balance-monthly{
+  
+    width: 100%;
+    height: 55px;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+}
+.balance-monthly h1{
+    margin-left: 25px;
+    font-size: 25px;
+ 
+    font-family: sans-serif;
+}
+.balance-monthly button{
+    margin-left: 250px;
+    padding: 2px 5px 2px 5px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+.earnings-sales{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.earnings-box{
+width: 40%;
+height: 80px;
+border: 1px solid #ccc;
+}
+.sales-values-box{
+    width: 40%;
+    height: 80px;
+    border: 1px solid #ccc;
+}
+.earnings{
+    margin-left: 10px;
+    color: gray;
+    font-size: 10px;
+}
+.perc{
+    display: inline-block;
+    margin-left: 10px;
+  
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.btnn{
+    margin-left: 10px;
+    padding: 4px 5px 4px 5px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+}
+.curve-graph{
+    margin-top: 30px;
+    width: 100%;
+    height: 150px;
+    
+}
