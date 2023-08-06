@@ -1,11 +1,23 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faCog, faComment, faBell } from '@fortawesome/free-solid-svg-icons';
+import { useState } from 'react';
 import vijay from '../src/vijay imag.jpeg'
 import GraphComponent from './Graph/GraphComponent';
 import TableComponent from './Table/TableComponent';
+import DiscoverComponent from './DiscoverComponent';
+import UserComponent from './UserComponent';
 import './App.css';
 
 function App() {
+
+
+  const [currentPage, setCurrentPage] = useState('dashboard');
+  
+  const handleNavigateToDashboard = () => setCurrentPage('dashboard');
+  const handleNavigateToDiscover = () => setCurrentPage('discover');
+  const handleNavigateToUser = () => setCurrentPage('user');
+
+
   return (
     <div className='whole-container'>
       <div className='left-nav-bar-container'>
@@ -14,9 +26,9 @@ function App() {
           </div>
         <span className='Main'>MAIN</span>
         <div className='Main-contianer'>
-          <span>Dashboard</span>
-          <span>Discover</span>
-          <span>User</span>
+          <span onClick={handleNavigateToDashboard}>Dashboard</span>
+          <span onClick={handleNavigateToDiscover}>Discover</span>
+          <span onClick={handleNavigateToUser}>User</span>
           <span>Documents</span>
           <span>Applications</span>
           <span>Pages</span>
@@ -58,8 +70,15 @@ function App() {
           </div>
         </div>
 
-       <GraphComponent/>
-        <TableComponent/>
+        {currentPage === 'dashboard' && (
+          <>
+            <GraphComponent />
+            <TableComponent />
+          </>
+        )}
+     
+        {currentPage === 'discover' && <DiscoverComponent />}
+        {currentPage === 'user' && <UserComponent />}
       </div>
     
     </div>

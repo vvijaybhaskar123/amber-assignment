@@ -107,6 +107,7 @@ margin-bottom: 20px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
  color: slategrey;
+
 }
 .SECONDARY{
   display: inline-block;
@@ -120,7 +121,7 @@ margin-bottom: 20px;
   
 }
 .secondary-contianer{
-
+  cursor: 'pointer';
   margin-left: 50px;
   display: flex;
   flex-direction: column;
