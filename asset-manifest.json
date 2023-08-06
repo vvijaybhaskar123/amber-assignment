@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/amber-assignment/static/css/main.ecbf4917.css",
-    "main.js": "/amber-assignment/static/js/main.04431618.js",
+    "main.css": "/amber-assignment/static/css/main.1610f1c1.css",
+    "main.js": "/amber-assignment/static/js/main.887a8422.js",
     "static/js/787.c4e6bbdc.chunk.js": "/amber-assignment/static/js/787.c4e6bbdc.chunk.js",
     "static/media/vijay imag.jpeg": "/amber-assignment/static/media/vijay imag.e484151b22da20ad8b9a.jpeg",
     "index.html": "/amber-assignment/index.html",
-    "main.ecbf4917.css.map": "/amber-assignment/static/css/main.ecbf4917.css.map",
-    "main.04431618.js.map": "/amber-assignment/static/js/main.04431618.js.map",
+    "main.1610f1c1.css.map": "/amber-assignment/static/css/main.1610f1c1.css.map",
+    "main.887a8422.js.map": "/amber-assignment/static/js/main.887a8422.js.map",
     "787.c4e6bbdc.chunk.js.map": "/amber-assignment/static/js/787.c4e6bbdc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecbf4917.css",
-    "static/js/main.04431618.js"
+    "static/css/main.1610f1c1.css",
+    "static/js/main.887a8422.js"
   ]
 }
